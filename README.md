@@ -1,0 +1,1 @@
+# ogrencibilgisistemi_db
