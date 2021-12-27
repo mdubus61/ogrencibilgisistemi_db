@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".EkleActivity">
+
+    <EditText
+        android:id="@+id/editTextIsim"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="İsim Giriniz" />
+
+    <EditText
+        android:id="@+id/editTextSoyIsim"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Soyad giriniz"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextOgrenciNo"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Öğrenci no giriniz"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextBolumAdi"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="41dp"
+        android:ems="10"
+        android:hint="Bölüm giriniz" />
+
+    <Button
+        android:id="@+id/butonKaydet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="SQLiteInsert"
+        android:text="KAYDET"
+        android:textStyle="bold" />
+</LinearLayout>
